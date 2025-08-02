@@ -26,13 +26,13 @@ A Node.js-based application designed to simplify and automate school administrat
 - Admin Dashboard
 ---
 # 🛠 Tech Stack
-- ```Programming Language```: JavaScript (Node.js)
-- ```Runtime```: Node.js
-- ```Framework```: Express.js
-- ```Database```: MongoDB / Mongoose (or MySQL / Sequelize)
-- ```Authentication```: JSON Web Token (JWT)
-- ```Environment Management```: dotenv
-- ```Testing```: Jest / Mocha (optional)
+- **Programming Language**: JavaScript (Node.js)
+- **Runtime**: Node.js
+- **Framework**: Express.js
+- **Database**: MongoDB / Mongoose (or MySQL / Sequelize)
+- **Authentication**: JSON Web Token (JWT)
+- **Environment Management**: dotenv
+- **Testing**: Jest / Mocha (optional)
 
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
 ![Express](https://img.shields.io/badge/Express.js-Framework-blue)
