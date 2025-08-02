@@ -33,3 +33,85 @@ A Node.js-based application designed to simplify and automate school administrat
 - ```Authentication```: JSON Web Token (JWT)
 - ```Environment Management```: dotenv
 - ```Testing```: Jest / Mocha (optional)
+
+![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
+![Express](https://img.shields.io/badge/Express.js-Framework-blue)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-brightgreen)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+
+---
+
+
+# 🚀 Installation
+
+Clone the project and install dependencies:
+
+```bash
+git clone https://github.com/your-username/school-management-system.git
+```
+```bash
+cd school-management-system
+```
+``` 
+npm install
+
+```
+# Screenshot
+![Dashboard](dashboard.png)
+
+# 🔧 Usage
+
+To run the server in development mode:
+
+```
+npm run dev
+```
+To start the server normally:
+
+```
+npm start
+```
+Access the API at
+```
+http://localhost:3000/api
+```
+# 📮 API Endpoints
+|Method  |Endpoint           |Description     |
+|--------|-------------------|----------------|
+|POST    |/api/auth/login    |Login to system |
+|GET    |/api/students   |Login to system |
+|POST    |/api/auth/login    |Login to system |
+|PUT   |/api/students/:id   |Login to system |
+|DELETE   |/api/students/:id   |Login to system |
+
+# 🔑 Environment Variables
+
+Create a ```.env``` file in the root directory and add:
+
+```env
+PORT=3000
+DB_URI=your_database_connection_string
+JWT_SECRET=your_jwt_secret_key
+```
+
+# 🧪 Scripts
+```
+npm start       # Start the server
+npm run dev     # Start with nodemon
+npm test        # Run test cases
+```
+# 👥 Contributors
+
+![My GitHub Picture](https://contrib.rocks/image?repo=ChandySrin/Readme-SrinChandy)
+
+# 📄 License
+
+```yaml
+
+---
+
+Let me know:
+- if your project uses MongoDB or MySQL (so I can adjust that part),
+- if you want to include screenshots or setup diagrams,
+- or if you'd like this saved as a downloadable `.md` file.
+```
